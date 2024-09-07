@@ -1,0 +1,60 @@
+# Logs and runtime files
+*.log
+*.pid
+*.gz
+*.zip
+logs/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Compiled class files (Java)
+target/
+out/
+bin/
+
+# Maven specific
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/target/
+**/dependency-reduced-pom.xml
+**/build/
+*.iml
+*.iws
+
+# Node modules (Angular)
+node_modules/
+
+# Angular build artifacts
+dist/
+build/
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse & IntelliJ project files (Java)
+*.project
+*.classpath
+*.settings/
+*.idea/
+*.iml
+
+# Compiled TypeScript (Angular)
+*.tsbuildinfo
+*.map
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Environment files (optional)
+src/environments/*.ts
